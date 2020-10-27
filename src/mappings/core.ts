@@ -1,6 +1,6 @@
 import { PairHourData } from './../types/schema'
 /* eslint-disable prefer-const */
-import { BigInt, BigDecimal, store, Address } from '@graphprotocol/graph-ts'
+import { BigInt, BigDecimal, store, Address, log } from '@graphprotocol/graph-ts'
 import {
   Pair,
   Token,
